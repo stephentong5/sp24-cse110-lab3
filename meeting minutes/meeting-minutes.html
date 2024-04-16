@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Minutes</title>
+    <link rel="icon" href="favicon.ico" />
+</head>
+
+<body>
+    <header>
+        <h1>Monkey Meeting Minutes</h1>
+    </header>
+
+    <nav>
+        <a href="#survey">Take our Survery!</a> 
+    </nav>
+
+    <main>
+        <h2>Brainstorming Meeting</h2>
+
+        <h2>4/15/2024</h2>
+
+        <h3>Attendance</h3>
+        <h4>Present</h4>
+        <ul>
+            <li>King Kong</li>
+            <li>Chim Chim</li>
+            <li>George</li>
+            <li>Abu</li>
+            <li>Caesar</li>
+        </ul>
+        <h4>Not Present</h4>
+        <ul>
+            <li>Harambe</li>
+        </ul>
+
+        <h3>Agenda</h3>
+        <ol>
+            <li>Plan the Banana Heist</li>
+            <li>Discuss the Take Over of La Jolla</li>
+            <li>Appoint New Monkey Ruler</li>
+        </ol>
+
+        <h3>Unfinished Monkey Business</h3>
+        <section>
+            <h4>Plan the Banana Heist</h4>
+            <h5>Roles</h5>
+            <div>
+                <p>
+                    <b>Chim Chim</b> will steal the layout of the banana safe. <b>Abu</b> will slip through the vents.
+                    <b>King Kong</b> will cause a distraction in the city. <b>George</b> will hack into the mainframe.
+                    <b>Harambe</b> will be our muscle. <b>Caesar</b> will be our brave leader and manage the team from
+                    behind the scenes.
+                </p>
+            </div>
+            
+            <hr />
+            
+            <span>
+                <p>
+                    Since the last meeting, Chim Chim has <strong>stolen the layout of the banana safe</strong>.
+                </p>
+                <img src="layout.jpg" width="800">
+                <br />
+                <i>Layout of the Banana Safe</i>
+            </span>
+        </section>
+
+        <h3>New Monkey Business</h3>
+        
+        <h4>Discuss the Take Over of La Jolla</h4>
+        <p>
+            This plan is <em>still</em> in its early stages unfortunately. So far, we decided to go after the mayor and take over
+            that way. With the mayor at our disposal, the monkeys will rule! We have found this 
+            <a href="https://www.sandiego.gov/citycouncil/cd1/communities/lajolla">website</a> to help us gather information on 
+            the mayor.
+        </p>
+        
+        <h4>Appoint New Monkey Ruler</h4>
+        <p>
+            4 votes for Caesar <br />
+            1 votes for King Kong <br />
+            Caesar win! Here's a video of his celebration!
+        </p>
+        <audio controls src="caesar-sound.mp3"></audio>
+        <br />
+        <video controls width="500"><source src="caesar-video.mp4" /></video>
+        
+        <h3>Comments/Concerns</h3>
+        <ul>
+            <li>King Kong is upset over the results of the vote and wants a revote</li>
+            <li>Chim Chim thinks we need a better plan for taking over the city</li>
+        </ul>
+
+        <details>
+            <summary>Click me!</summary>
+            Monkey surprise!
+        </details>
+        <br />
+    </main>
+
+    <form id="survey">
+        <fieldset>
+            <label>What is your name?</label> <br/>
+            <input type="text" /> <br/>
+            <br/>
+
+            <label>What is your birthday?</label> <br/>
+            <input type="date" /> <br/>
+            <br/>
+
+            <label>Did you enjoy this meeting?</label> <br/>
+            <input type="radio" id="yes"/>
+            <label for="yes">Yes</label> <br/>
+            <input type="radio" id="no"/>
+            <label for="no">No</label> <br/>
+            <br/>
+
+            <label>Select all that can apply to improve this meeting</label> <br/>
+            <input type="checkbox" id="first">
+            <label for="first">Include more monkeys</label> <br/>
+            <input type="checkbox" id="second">
+            <label for="second">Have a better plan for the takeover</label> <br/>
+            <input type="checkbox" id="third">
+            <label for="third">Have King Kong be ruler</label> <br/>
+            <br/>
+
+            <label>Is there anything else we could do to improve?</label> <br/>
+            <textarea></textarea> <br/>
+            <br/>
+
+            <label>Choose your favorite monkey</label> <br/>
+            <input list="monkeys"/>
+            <datalist id="monkeys">
+                <option value="King Kong"></option>
+                <option value="Chim Chim"></option>
+                <option value="George"></option>
+                <option value="Abu"></option>
+                <option value="Caesar"></option>
+                <option value="Harambe"></option>
+            </datalist> <br/>
+            <br/>
+
+            <label>Select who you think should be monkey ruler</label> <br/>
+            <select name="monkeys">
+                <option>Please select an option</option>
+                <option>King Kong</option>
+                <option>Chim Chim</option>
+                <option>George</option>
+                <option>Abu</option>
+                <option>Caesar</option>
+                <option>Harambe</option>
+            </select> <br/>
+            <br/>
+
+            <button>Click this if you love monkeys!</button> <br/>
+        </fieldset>
+    </form>
+
+    <footer>Copyright @ 2024 MonkeyCompany. All Rights Reserved</footer>
+</body>
+
+</html>
