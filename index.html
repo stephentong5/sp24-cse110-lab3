@@ -7,6 +7,14 @@
     <title>Meeting Minutes</title>
     <link rel="icon" href="meeting-minutes/favicon.ico">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        details:hover {
+            color: color-mix(in lch, red, blue);
+        }
+    </style>
 </head>
 
 <body>
@@ -21,11 +29,11 @@
     <main>
         <h2>Brainstorming Meeting</h2>
 
-        <h2>4/15/2024</h2>
+        <h2 class="date">4/15/2024</h2>
 
         <h3>Attendance</h3>
         <h4>Present</h4>
-        <ul>
+        <ul id="attendance" class="present">
             <li>King Kong</li>
             <li>Chim Chim</li>
             <li>George</li>
@@ -33,12 +41,12 @@
             <li>Caesar</li>
         </ul>
         <h4>Not Present</h4>
-        <ul>
+        <ul id="attendance" class="present">
             <li>Harambe</li>
         </ul>
 
         <h3>Agenda</h3>
-        <ol>
+        <ol id="agenda">
             <li>Plan the Banana Heist</li>
             <li>Discuss the Take Over of La Jolla</li>
             <li>Appoint New Monkey Ruler</li>
@@ -61,9 +69,9 @@
             
             <span>
                 Since the last meeting, Chim Chim has <strong>stolen the layout of the banana safe</strong>.
-                <img src="meeting-minutes/layout.jpg" width="800" alt="Banana Safe Layout">
+                <img src="meeting-minutes/layout.jpg" width="800" alt="Banana Safe Layout" id="layout">
                 <br>
-                <i>Layout of the Banana Safe</i>
+                <i style="color:color(display-p3 0 0 1);">Layout of the Banana Safe</i>
             </span>
         </section>
 
@@ -83,9 +91,9 @@
             1 votes for King Kong <br>
             Caesar win! Here's a video of his celebration!
         </p>
-        <audio controls src="meeting-minutes/caesar-sound.mp3"></audio>
+        <audio controls src="meeting-minutes/caesar-sound.mp3" id="audio"></audio>
         <br>
-        <video controls width="500"><source src="meeting-minutes/caesar-video.mp4"></video>
+        <video controls width="500" id="video"><source src="meeting-minutes/caesar-video.mp4"></video>
         
         <h3>Comments/Concerns</h3>
         <ul>
