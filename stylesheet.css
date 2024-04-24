@@ -1,0 +1,93 @@
+/* Hello this can't be seen */
+:root {
+    --color: lightblue;
+}
+* {
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    h5 {
+        text-decoration: underline;
+    }
+}
+header {
+    width: 393px;
+    background-color: rgb(255, 255, 0);
+}
+h3 {
+    color: #FF0000;
+}
+.date {
+    color: blue;
+}
+#attendance {
+    width: 2.2cm;
+    height: 3cm;
+    background-color: hsl(0, 25%, 80%);
+}
+#agenda {
+    background-color: var(--color, pink);
+    width: 2in;
+    height: 2in;
+    display: grid;
+    grid-template-columns: 0.9in 0.9in;
+    grid-template-rows: 0.9in 0.9in;
+    column-gap: 0.2in;
+    row-gap: 0.2in;
+
+}
+#layout {
+    margin: 2em 2em 2em 2em;
+    padding: 1rem 1rem 1rem 1rem;
+    border-style: dashed;
+    border-color: blue;
+    border-width: 0.5vh;
+    border-radius: 20px;
+    display: block;
+    max-width: 700px;
+    max-height: 600px;
+    position: relative;
+    top: 10px;
+}
+a[href="https://www.sandiego.gov/citycouncil/cd1/communities/lajolla"] {
+    text-decoration: underline dotted;
+}
+#audio, #video {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border: solid;
+    position: static;
+    display: inline-block;
+}
+body form {
+    margin: auto;
+}
+main > h2 {
+    text-decoration: underline;
+}
+ul + details {
+    text-align: center;
+}
+p ~ details:active {
+    color: blue;
+}
+ul.present {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+form:has(fieldset) {
+    color: gray;
+}
+@media (max-width: 500px) {
+    #layout {
+        max-width: 450px;
+    }
+}
